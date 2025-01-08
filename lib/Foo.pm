@@ -5,8 +5,7 @@ use Mojo::Base 'Mojolicious', -async_await;
 
 use Local::Exceptions;
 
-use Safe::Isa;
-use Struct::Dumb;
+use Struct::Dumb; # if you comment this useless line out, then bug doesn't manifest anymore
 
 use experimental 'try';
 
