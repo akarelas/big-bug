@@ -8,5 +8,5 @@ use Local::Exceptions;
 # use Struct::Dumb;
 
 async sub foo ($self) {
-    die Local::Exceptions->new;
+    # die Local::Exceptions->new;
 }

@@ -9,6 +9,5 @@ sub new ($class) {
 }
 
 use overload '""' => sub {
-    # 'fudge';
     return dump('hi');
 };
