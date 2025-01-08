@@ -27,7 +27,7 @@ sub {
 }->();
 ```
 
-2. The `use Struct::Dump` line in lib/Foo.pm (which isn't used anywhere) is commented-out
+2. The `use Struct::Dumb` line in lib/Foo.pm (which isn't used anywhere) is commented-out
 
 3. `dump` in Local::Exceptions is replaced with a plain string
 4. You don't stringify the Exception in the standard way (`use overload '""'`)
