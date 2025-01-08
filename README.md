@@ -36,5 +36,5 @@ but by calling a to_string method on the Exception (which you'd have to define).
 (using `Mojo::Base -strict, -async_await`), and even then the bug didn't manifest itself either
 (though not sure I tried it well enough).
 
-I believe this is one of the strangest, weirdest bugs of all time, because it requires all of the above weird (or less weird)
+I believe this is one of the strangest, weirdest bugs of all time, because it requires all of the above
 components for it to manifest.
